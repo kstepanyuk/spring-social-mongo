@@ -235,6 +235,14 @@
     </dependency>
   </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>GitHub Repo</id>
+            <name>Internal Repository</name>
+            <url>file://localhost/home/const/projects/spring-social-mongo/maven-repo</url>
+        </repository>
+    </distributionManagement>
+
 	<profiles>
 		<profile>
 			<id>central</id>
